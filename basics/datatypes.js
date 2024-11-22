@@ -18,6 +18,7 @@ let State; //undefined
 let temp=null //null
 
 //primitive datatypes
+
 //number=>2 to power 53 range
 //bigInt
 //string(''or"")
@@ -30,7 +31,7 @@ let temp=null //null
 
 console.log(typeof "sonal");//string
 console.log(typeof age);//number
-console.log(typeof null); //object
+console.log(typeof null); //object(this is problem of lang)
 console.log(typeof undefined);//undefined
 
 

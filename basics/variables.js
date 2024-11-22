@@ -1,7 +1,7 @@
 const accountId=144553 //cannot be changed
-let accountEmail="sonalbansal845@gmail.com" 
+let accountEmail="sonalbansal845@gmail.com" //use this
 var accountPassword="12345"
-accountCity="Prayagraj"
+accountCity="Prayagraj" //not right way
 let accountState;//undefined output
 
 //semicolon is optional
@@ -19,5 +19,5 @@ accountCity="Lucknow"
 
 console.log(accountId);//for displaying output
 
-console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState]) //for displaying multiple outputs in a table
 
