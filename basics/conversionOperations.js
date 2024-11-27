@@ -50,6 +50,93 @@ console.log(typeof stringNumber);//string
 console.log(stringNumber)//33
 
 
+//************************* OPERATIONS************************************************
+
+let value=3
+let negValue=-value
+console.log(negValue); //-3
+
+console.log(2+2) //4
+console.log(2-2) //0
+console.log(2*2) //4
+console.log(2**2) //4
+console.log(2/2)  //1
+console.log(2%2)  //0
+
+let str1="Hello"
+let str2=" Sonal"
+let str3=str1+str2;
+console.log(str3);
+
+//string to number conversion is confusing
+//conversion as preffered number or string
+//where problem comes(complex situations)  
+//if string first all treat as string ;if string last, number in start only string treat as string
+
+console.log("1"+2); //12
+console.log(1+"2"); //12
+console.log("1"+"2"); //12
+console.log("1"+2+2); //122
+console.log(1+2+"2"); //32
+
+//use paranthesis
+console.log(3+4*5%3);  //5
+
+//tricky or special type conversions
+
+console.log(true); //true
+console.log(+true); //1
+//console.log(true+); //error
+console.log(+""); //0
+
+let num1,num2,num3
+num1=num2=num3=2+2
+
+//precedence postflix
+let gamecounter=100
+gamecounter++;
+console.log(gamecounter); //101
+
+//prefix
+let gameCounter=100
+++gameCounter;
+console.log(gameCounter); //101
+
+//postflix and prefix code
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
