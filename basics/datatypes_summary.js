@@ -40,6 +40,26 @@
      console.log(typeof heros)  //object
      console.log(typeof anotherId);  //symbol
          
-     
-     
-     
+     //+++++++++++++++++++++++++++++++MEMORY+++++++++++++++++++++++++++++++++++++++++++++
+
+     //Stack memory(Primitive datatype uses)                copy milta hai 
+     //Heap Memory(Non primitive datatypes uses)           reference milta hai original value ka (chnages done on original)
+
+     let myName="Sonal"
+     let anotherName=myName;
+     anotherName="Tanu";
+  
+     console.log(myName);       //sonal
+     console.log(anotherName);    //tanu
+
+     let userOne={                       //non primitive object
+        email:"user@google.com",
+        upi:"user@ybl"
+     }
+      
+     let userTwo=userOne;                  //points to same reference 
+
+     userTwo.email="sonal@google.com"      //changes done in both
+     console.log(userOne.email)             //sonal@google.com
+     console.log(userTwo.email)             //sonal@google.com
+   
